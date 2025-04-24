@@ -7,12 +7,12 @@ import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBoLFBrrFwCwvCkP1xtm55bcF1yf0erMXg",
-  authDomain: "eatsexpress-9a6d5.firebaseapp.com",
-  projectId: "eatsexpress-9a6d5",
-  storageBucket: "eatsexpress-9a6d5.firebasestorage.app",
-  messagingSenderId: "866022768065",
-  appId: "1:866022768065:web:d01153a117e8ffc6ba4340"
+  apiKey: "AIzaSyC7saym6hi1nZuJRPDFt1ecuXavJPcVDaU",
+  authDomain: "foodorderingapp-f57a0.firebaseapp.com",
+  projectId: "foodorderingapp-f57a0",
+  storageBucket: "foodorderingapp-f57a0.firebasestorage.app",
+  messagingSenderId: "354925210664",
+  appId: "1:354925210664:web:d929f0f26671a90b3a591d"
 };
 
 // Initialize Firebase
