@@ -38,8 +38,8 @@ const Home = () => {
             at <span className="text-red-500">your door</span>
           </h1>
           <p className="text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui <br />{" "}
-            magni delectus tenetur autem, sint veritatis!
+            Craving something delicious? We bring your favorite meals straight to your door <br />{" "}
+             fast, fresh, and hassle-free!
           </p>
           <div className="my-10 flex gap-6">
             <button className="bg-red-600 rounded-lg text-white px-6 py-3"
@@ -80,7 +80,7 @@ const Home = () => {
       </div>
       <div className="py-10 xl:px-32 dark:bg-[rgb(32,33,36)] dark:text-white">
         <h1 className="text-3xl pl-10 xl:pl-16 py-12">Whats on your mind?</h1>
-        <Slider allRestaurants={allRestaurants} />
+        <Slider /> 
       </div>
       <div id="popular" className="dark:bg-[rgb(32,33,36)] dark:text-white py-10">
         <h1 className="text-3xl pl-10 xl:pl-48 py-8">Popular Foods</h1>

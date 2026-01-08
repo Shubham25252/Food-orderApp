@@ -36,7 +36,7 @@ function Slider() {
   return (
     <div className=" dark:bg-[rgb(32,33,36)] dark:text-white">
       <Carousel responsive={responsive}>
-          {restaurants.slice(3).map((item) => (
+          {restaurants.map((item) => (
             <div
               key={item.info.id}
               className="flex flex-col justify-center items-center cursor-pointer"
